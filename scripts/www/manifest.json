@@ -1,0 +1,53 @@
+{
+    "@platforms" : [ "android", "iPhone", "iPad" ],
+    "id" : "H5061058D",
+    "name" : "模拟微信",
+    "version" : {
+        "name" : "1.0.1",
+        "code" : "100"
+    },
+    "description" : "微信模拟器",
+    "icons" : {
+        "72" : "icon.png"
+    },
+    "launch_path" : "index.html",
+    "developer" : {
+        "name" : "",
+        "email" : "",
+        "url" : ""
+    },
+    "permissions" : {
+        "Cache" : {
+            "description" : "管理应用缓存"
+        },
+        "Console" : {
+            "description" : "跟踪调试输出"
+        }
+    },
+    "plus" : {
+        "splashscreen" : {
+            "autoclose" : true,
+            "waiting" : true
+        },
+        "popGesture" : "close",
+        "runmode" : "liberate",
+        "distribute" : {
+            "google" : {
+                "permissions" : [ "<uses-permission android:name=\"android.permission.INTERNET\" />" ]
+            },
+            "orientation" : [ "portrait-primary" ],
+            "icons" : {
+                "android" : {
+                    "hdpi" : "icon.png",
+                    "xhdpi" : "icon.png",
+                    "xxhdpi" : "icon.png",
+                    "xxxhdpi" : "icon.png"
+                }
+            },
+            "ios" : {
+                "dSYMs" : false
+            }
+        }
+    },
+    "screenOrientation" : [ "portrait-primary" ]
+}
